@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	* {
+		font-family: "Outfit";
+	}
+
+	h1,
+	h2 {
+		font-family: "Young Serif", serif;
+	}
+}
+
+@layer components {
+	.recipe-section {
+		@apply px-8 first-of-type:pt-[40px] last-of-type:pb-[40px] flex flex-col;
+	}
+}
