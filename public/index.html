@@ -12,34 +12,42 @@
   <link rel="stylesheet" href="app.css">
 </head>
 
-<body class="min-h-screen flex flex-col bg-stone-100">
+<body class="bg-stone-100 flex flex-col min-h-screen">
   <main class="flex-1">
     <article class="w-full bg-white">
       <img src="images/image-omelette.jpeg" alt="Image of an Omelette">
 
-      <section class="recipe-section gap-6">
-        <h1 class="text-4xl leading-none text-stone-900">
-          Simple Omelette Recipe
-        </h1>
+      <section class="recipe-section gap-8">
+        <div class="flex flex-col gap-6">
+          <h1 class="text-stone-900 text-4xl leading-none">
+            Simple Omelette Recipe
+          </h1>
 
-        <p>
-          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-          to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-        </p>
+          <p>
+            An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+            to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+          </p>
+        </div>
 
-        <div class="flex flex-col gap-4 bg-rose-50 p-4">
-          <h3 class="text-rose-800 font-bold text-xl">
+        <div class="bg-rose-50 rounded-xl flex flex-col gap-4 px-6 py-5">
+          <h3 class="text-rose-800 text-xl font-bold">
             Preparation time
           </h3>
           <ul class="list-disc list-inside">
-            <li>
-              <span class="font-bold">Total</span>: Approximately 10 minutes
+            <li class="">
+              <p class="flex">
+                <span class="font-bold">Total</span>: Approximately 10 minutes
+              </p>
             </li>
-            <li>
-              <span class="font-bold">Preparation</span>: 5 minutes
+            <li class="">
+              <p class="flex">
+                <span class="font-bold">Preparation</span>: 5 minutes
+              </p>
             </li>
-            <li>
-              <span class="font-bold">Cooking</span>: 5 minutes
+            <li class="">
+              <p class="flex">
+                <span class="font-bold">Cooking</span>: 5 minutes
+              </p>
             </li>
           </ul>
         </div>
