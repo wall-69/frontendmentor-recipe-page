@@ -11,17 +11,17 @@ The designs were created to the following widths:
 
 ## Colors
 
-- White: hsl(0, 0%, 100%)
+White: hsl(0, 0%, 100%)
 
-- Stone 100: hsl(30, 54%, 90%) - page background
-- Stone 150: hsl(30, 18%, 87%) -
-- Stone 600: hsl(30, 10%, 34%) -
-- Stone 900: hsl(24, 5%, 18%) - h1
+Stone 100: hsl(30, 54%, 90%) - page background  
+Stone 150: hsl(30, 18%, 87%) -  
+Stone 600: hsl(30, 10%, 34%) -  
+Stone 900: hsl(24, 5%, 18%) - h1
 
-- Brown 800: hsl(14, 45%, 36%) - h2
+Brown 800: hsl(14, 45%, 36%) - h2, text v paragrafoch
 
-- Rose 800: hsl(332, 51%, 32%) - prep time h3
-- Rose 50: hsl(330, 100%, 98%) - prep time bg
+Rose 800: hsl(332, 51%, 32%) - prep time h3  
+Rose 50: hsl(330, 100%, 98%) - prep time bg
 
 ## Typography
 
